@@ -4,16 +4,16 @@
       "id" : "12C935CE-11B7-41E2-9178-420241C89A08",
       "name" : "Configuration 1",
       "options" : {
-
+        "threadSanitizerEnabled" : true
       }
     }
   ],
   "defaultOptions" : {
-    "testExecutionOrdering" : "random"
+    "testExecutionOrdering" : "random",
+    "threadSanitizerEnabled" : true
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
       "target" : {
         "containerPath" : "container:EssentialFeed.xcodeproj",
         "identifier" : "EA77415829EBE7DF00111D87",
@@ -21,7 +21,6 @@
       }
     },
     {
-      "parallelizable" : true,
       "target" : {
         "containerPath" : "container:EssentialFeed.xcodeproj",
         "identifier" : "EAA458F529922E9A00B75C59",
