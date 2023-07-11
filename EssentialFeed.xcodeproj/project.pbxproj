@@ -58,6 +58,7 @@
 		EAA45908299230AA00B75C59 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		EAA459112999173200B75C59 /* LoadFeedFromRemoteUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromRemoteUseCaseTests.swift; sourceTree = "<group>"; };
 		EAA45914299A9F5100B75C59 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		EAFE40262A5D4AB100F65033 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		EAA458E229922E9A00B75C59 = {
 			isa = PBXGroup;
 			children = (
+				EAFE40262A5D4AB100F65033 /* README.md */,
 				EA4ABC1C29EE7F2F00FE9474 /* CI.xctestplan */,
 				EAA458EE29922E9A00B75C59 /* EssentialFeed */,
 				EAA458FA29922E9A00B75C59 /* EssentialFeedTests */,
