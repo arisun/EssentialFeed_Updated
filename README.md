@@ -1,6 +1,6 @@
 # Essential Feed App – Image Feed Feature
 
-![Build Status](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![Build Status](https://github.com/github/docs/actions/workflows/swift.yml/badge.svg)
 
 ## BDD Specs
 
