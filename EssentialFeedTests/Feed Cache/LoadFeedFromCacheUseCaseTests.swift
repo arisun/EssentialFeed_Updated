@@ -21,11 +21,12 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
         they belong to different contexts / Uses  cases
      
         By creating separate tests, if we ever decide to break those actions in separate types, it's much easier to do so.
-        The tests are al;ready separated and with all the necessary assertions.
+        The tests are already separated and with all the necessary assertions.
      */
      
     func test_init_doesNotMessageStoreUponCreation() {
         let (_, store) = makeSUT()
+        
         XCTAssertEqual(store.receivedMessages, [])
     }
     
