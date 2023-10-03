@@ -82,7 +82,7 @@ Given the customer doesn't have connectivity
 4. System creates image feed from cached data.
 5. System delivers image feed.
 
-#### Retrival error course (sad path):
+#### Retrieval error course (sad path):
 1. System deletes cache.
 1. System delivers error.
 
