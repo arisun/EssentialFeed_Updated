@@ -9,6 +9,11 @@ import EssentialFeed
 import XCTest
 
 extension FeedStoreSpecs where Self: XCTestCase {
+    func assertThatRetrieveDeliversEmptyOnEmptyCache(on sut: FeedStore, file: StaticString = #file, line: UInt = #line) {
+        expect(sut, toRetrieve: .empty)
+    }
+    
+    
     @discardableResult
     func insert(_ cache: (feed: [LocalFeedImage], timestamp: Date), to sut: FeedStore) -> Error? {
         
