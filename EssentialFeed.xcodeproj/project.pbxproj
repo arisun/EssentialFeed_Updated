@@ -10,6 +10,7 @@
 		EA12EEF22AD9337000CBA0F0 /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12EEF12AD9337000CBA0F0 /* CodableFeedStoreTests.swift */; };
 		EA1866792AFA7F6E0083642C /* EssentialFeedCacheIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1866782AFA7F6E0083642C /* EssentialFeedCacheIntegrationTests.swift */; };
 		EA18667A2AFA7F6E0083642C /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA458EC29922E9A00B75C59 /* EssentialFeed.framework */; };
+		EA1866822AFA864B0083642C /* XCTestCase+MemoryLeakTrackingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E3B1629BF5BFA00D390B4 /* XCTestCase+MemoryLeakTrackingHelper.swift */; };
 		EA1FE39029A78F7F00CB98B8 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FE38F29A78F7F00CB98B8 /* HTTPClient.swift */; };
 		EA1FE39229A78FD400CB98B8 /* FeedItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FE39129A78FD400CB98B8 /* FeedItemMapper.swift */; };
 		EA1FE39529A7DC2F00CB98B8 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FE39429A7DC2F00CB98B8 /* URLSessionHTTPClientTests.swift */; };
@@ -159,7 +160,6 @@
 		EA1866772AFA7F6E0083642C /* EssentialFeedCacheIntegrationTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA1866802AFA80180083642C /* EssentialFeedCacheIntegrationTests.xctestplan */,
 				EA1866782AFA7F6E0083642C /* EssentialFeedCacheIntegrationTests.swift */,
 			);
 			path = EssentialFeedCacheIntegrationTests;
@@ -220,6 +220,7 @@
 		EAA458E229922E9A00B75C59 = {
 			isa = PBXGroup;
 			children = (
+				EA1866802AFA80180083642C /* EssentialFeedCacheIntegrationTests.xctestplan */,
 				EAFE40262A5D4AB100F65033 /* README.md */,
 				EA4ABC1C29EE7F2F00FE9474 /* CI.xctestplan */,
 				EAA458EE29922E9A00B75C59 /* EssentialFeed */,
@@ -502,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1866792AFA7F6E0083642C /* EssentialFeedCacheIntegrationTests.swift in Sources */,
+				EA1866822AFA864B0083642C /* XCTestCase+MemoryLeakTrackingHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
